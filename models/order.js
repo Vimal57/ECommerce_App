@@ -6,5 +6,5 @@ const orderSchema = mongoose.Schema({
     quantity: { type: Number, default: 1 }
 });
 
-let Order = mongoose.model("Order", orderSchema);
+const Order = mongoose.model("Order", orderSchema);
 module.exports = Order;
